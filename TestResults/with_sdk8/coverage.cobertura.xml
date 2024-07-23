@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.5" branch-rate="1" version="1.9" timestamp="1721761718" lines-covered="1" lines-valid="2" branches-covered="0" branches-valid="0">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="CoveredClassLibrary_net8" line-rate="1" branch-rate="1" complexity="1">
+      <classes>
+        <class name="CoveredClassLibrary.CoveredClass" filename="https://raw.githubusercontent.com/tungi52/CoverletBug/ffc16c93148d3674524e95709695211b7250dc63/CoveredClassLibrary/CoveredClass.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Sum" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UncoveredClassLibrary_net8" line-rate="0" branch-rate="1" complexity="1">
+      <classes>
+        <class name="UncoveredClassLibrary.UncoveredClass" filename="d:\github\CoverletBug\UncoveredClassLibrary\UncoveredClass.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Multiply" signature="(System.Int32,System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
